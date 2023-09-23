@@ -1,0 +1,18 @@
+img {
+    width: 50%;
+}
+.ftext, .ftext2, .ftext4, .ftext5, .ftext6 {
+    font-weight: bold;
+    font-size: 25px;
+}
+table {
+    border: 1px solid black;
+  }
+  
+td, th {
+    padding: 2px;
+    border: 1px solid #000;
+    /* border-width: 2px 1px 1px 2px; */
+  }
+
+  

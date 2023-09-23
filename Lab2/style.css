@@ -1,0 +1,49 @@
+header {
+    width: 50px;
+}
+h1 {
+    text-shadow: 5px 10px blue;
+    color: red;
+    
+}
+.s1, .s2, .s3, .s4 {
+    font-weight: bold;
+
+}
+.s1 {
+    font-size: 45px;
+}
+.s2, .s3, .s4 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+
+
+/* .list li {
+    color: blue;
+} */
+.list .ss1 {
+    color:red;
+}
+.ftext4, .ftext5 {
+    color: red;
+    
+    font-size: 20px;
+    font-weight: bold;
+}
+table{
+    border: 1px solid black;
+}
+table{border-collapse: collapse;}
+table th,td{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+.ssss {
+    text-shadow: 1px 2px 10px black;
+    color: blue;
+    font-weight: bold;
+}
