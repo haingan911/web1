@@ -1,0 +1,115 @@
+
+
+body {
+    background-color: White;
+    background-image: url(abc.gif);
+    background-repeat: repeat;
+    background-attachment:fixed;
+}
+a{
+    text-decoration: none;
+    font-variant:small-caps;
+    font-size: 13px;
+}
+
+ h3 {
+    color: black;
+    padding: 2px;
+    margin: 0px;
+}
+/*--định nghĩa css cho các vùng của layout--*/
+#container {
+    margin: 0px auto;
+    width: 800px;
+    border: 1px dotted black;
+}
+#top {
+    height: 50px;
+    background-color: grey;
+    border-bottom: 1px dotted black;
+}
+#navigation {
+    height: 50px;
+    background-color: rgb(197, 134, 123);
+    text-align: left;
+    padding-top: 2px;
+    border-bottom: medium double blue;
+
+    
+}
+
+#navigation ul{
+    margin: 0px;
+    padding: 0px;
+}
+#navigation ul li{
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+}
+
+#middle-left {
+    float: left;
+    width: 250px;
+    height: 500px;
+    
+
+}
+
+#box1 {
+    float: left;
+    width: 250px;
+    height: 150px;
+    background-color: yellow;
+}
+#box2 {
+    float: right;
+    width: 250px;
+    height: 150px;
+    background-color: gray;
+    
+}
+
+
+
+#middle-right {
+    float: right;
+    width: 550px;
+    height: 500px;
+    
+}
+
+#box3 {
+    background-color: white);
+    width: 550px;
+    height: 320px;
+}
+#box4 {
+    width: 320px;
+    height: 128px;
+}
+#box41 {
+    float: left;
+    width: 275px;
+    height: 160px;
+    background-color: green;
+
+}
+#box42 {
+    float: right;
+    width: 275px;
+    height: 160px;
+    background-color: red;
+    
+
+}
+ 
+
+#footer {
+    height: 50px;
+    background-color: rgb(215, 215, 104);
+    text-align: center;
+    padding-top: 5px;
+    font-variant:small-caps;
+    border-top: medium double black;
+    clear:both;
+}
